@@ -1,0 +1,9 @@
+إعداد مختصر:
+1) أنشئ مشروع Supabase.
+2) نفّذ supabase/schema.sql في SQL Editor.
+3) انسخ Project URL و anon/publishable key إلى assets/js/config.js.
+4) ارفع كل الملفات إلى GitHub مع index.html في جذر المستودع.
+5) Settings > Pages > GitHub Actions.
+6) أضف رابط GitHub Pages إلى Supabase Authentication > URL Configuration.
+
+لا تضع service_role أو أي مفتاح سري داخل ملفات الواجهة.
